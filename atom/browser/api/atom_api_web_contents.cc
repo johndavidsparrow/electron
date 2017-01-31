@@ -1135,7 +1135,9 @@ void WebContents::Print(mate::Arguments* args) {
   }
 
   printing::PrintViewManagerBasic::FromWebContents(web_contents())->
-      PrintNow(settings.silent, settings.print_background);
+      PrintNow(web_contents()->GetMainFrame(),
+               settings.silent,
+               settings.print_background);
 }
 
 void WebContents::PrintToPDF(const base::DictionaryValue& setting,
