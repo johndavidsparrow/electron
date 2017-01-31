@@ -29,7 +29,7 @@ use HTML5 APIs which are already available in browsers. Good candidates are
 [`sessionStorage`][session-storage], and [IndexedDB][indexed-db].
 sadsdd
 Or you can use the IPC system, which is specific to Electron, to store objects
-in the main process as a global variable, and then to access them from the
+in the main process as a global dsdfsdfdfvariable, and then to access them from the
 renderers through the `remote` property of `electron` module:
 
 ```javascript
