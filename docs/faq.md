@@ -32,7 +32,7 @@ Or you can use the IPC system, which is specific to Electron, to store objects
 in the main process as a global variable, and then to access them from the
 renderers through the `remote` property of `electron` module:
 
-```javascript
+```javascriptdsfasdfsdfsadfsdfdsfasdf
 // In the main process.
 global.sharedObject = {
   someProperty: 'default value'
